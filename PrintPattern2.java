@@ -3,7 +3,7 @@ import java.util.Scanner; // We use the Scanner class from java.util to handle u
 public class PrintSquares {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int size = 1;
+        int size = 2;
         boolean invalid = true;
         while (invalid) {
             System.out.print("Enter the size: ");
