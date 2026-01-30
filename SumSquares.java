@@ -23,10 +23,12 @@ public class PrintSquares {
 
         System.out.println("You entered: " + startNum + " and " + endNum);
         int total = 0;
-        for (int i = startNum; i <= endNum; ++i) {
+        int i = startNum;
+        while (i <= endNum){
             total += i*i;
-
+            i++;
         }
         System.out.print(total);
+
     }
 }
