@@ -4,17 +4,23 @@ public class NumbersInSpanish {
         int number = Integer.parseInt(args[0]);
 
         // delete the line below and replace with your code
-        if (number == 1) {
+        switch(number) {
+            case 1:
             System.out.println("uno");
-        } else if (number == 2) {
+            break;
+            case 2:
             System.out.println("dos");
-        } else if (number == 3) {
+            break;
+            case 3:
             System.out.println("tres");
-        } else if (number == 4) {
+            break;
+            case 4:
             System.out.println("cuatro");
-        } else if (number == 5) {
+            break;
+            case 5:
             System.out.println("cinco");
-        } else{
+            break;
+            default:
             System.out.println("Sorry I do not know that!");
 
         }
