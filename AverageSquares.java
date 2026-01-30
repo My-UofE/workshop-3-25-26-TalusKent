@@ -25,11 +25,11 @@ public class PrintSquares {
         int total = 0;
         double iters = 0.0;
         int i = startNum;
-        while (i <= endNum){
+        do {
             total += i*i;
             i++;
             iters++;
-        }
+        }while (i <= endNum);
         System.out.print((double)total/iters);
 
     }
